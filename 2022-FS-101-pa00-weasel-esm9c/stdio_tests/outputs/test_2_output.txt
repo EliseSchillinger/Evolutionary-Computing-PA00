@@ -1,0 +1,337 @@
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 233, in __main__.evaluate_group
+Failed example:
+    i1 = initialize_individual("This assignment is work!", 0)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 234, in __main__.evaluate_group
+Failed example:
+    i2 = initialize_individual("This assignment is hard!", 0)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 237, in __main__.evaluate_group
+Failed example:
+    evaluate_group(objective=objective, individuals=pop)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 238, in __main__.evaluate_group
+Failed example:
+    pop[0]
+Expected:
+    {'genome': 'This assignment is work!', 'fitness': 20}
+Got nothing
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 240, in __main__.evaluate_group
+Failed example:
+    pop[1]
+Expected:
+    {'genome': 'This assignment is hard!', 'fitness': 21}
+Got nothing
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 206, in __main__.evaluate_individual
+Failed example:
+    i1 = initialize_individual("This assignment is hard!", 0)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 207, in __main__.evaluate_individual
+Failed example:
+    i2 = initialize_individual("This assignment is good!", 0)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 209, in __main__.evaluate_individual
+Failed example:
+    evaluate_individual(objective=objective, individual=i1)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 210, in __main__.evaluate_individual
+Failed example:
+    evaluate_individual(objective=objective, individual=i2)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 211, in __main__.evaluate_individual
+Failed example:
+    i1
+Expected:
+    {'genome': 'This assignment is hard!', 'fitness': 21}
+Got nothing
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 213, in __main__.evaluate_individual
+Failed example:
+    i2
+Expected:
+    {'genome': 'This assignment is good!', 'fitness': 20}
+Got nothing
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 57, in __main__.initialize_individual
+Failed example:
+    initialize_individual("EC is fun", 10)
+Expected:
+    {'genome': 'EC is fun', 'fitness': 10}
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 59, in __main__.initialize_individual
+Failed example:
+    initialize_individual("Fun is EC", 9)
+Expected:
+    {'genome': 'Fun is EC', 'fitness': 9}
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 79, in __main__.initialize_pop
+Failed example:
+    for _ in range(4):
+        initialize_pop("EC is easy", 2)
+Expected:
+    [{'genome': 'OhbVrpoiVg', 'fitness': 0}, {'genome': 'RVIfLBcbfn', 'fitness': 0}]
+    [{'genome': 'oGMbJmTPSI', 'fitness': 0}, {'genome': 'AoCLrZaWZk', 'fitness': 0}]
+    [{'genome': 'SBvrjnWvgf', 'fitness': 0}, {'genome': 'ygwwMqZcUD', 'fitness': 0}]
+    [{'genome': 'IhyfJsONxK', 'fitness': 0}, {'genome': 'mTecQoXsfo', 'fitness': 0}]
+Got:
+    Delete this and write your code
+    Delete this and write your code
+    Delete this and write your code
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 181, in __main__.mutate_group
+Failed example:
+    i1 = initialize_individual("EC is great", 10)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 182, in __main__.mutate_group
+Failed example:
+    i2 = initialize_individual("Great is EC", 10)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 184, in __main__.mutate_group
+Failed example:
+    for _ in range(4):
+        mutate_group(pop, 0.3)
+Expected:
+    [{'genome': 'Eriis BfGat', 'fitness': 0}, {'genome': 'Greaa BsWEg', 'fitness': 0}]
+    [{'genome': 'ECcis great', 'fitness': 0}, {'genome': 'Groat is Ew', 'fitness': 0}]
+    [{'genome': 'rC OUDgreat', 'fitness': 0}, {'genome': 'GrcatKis EC', 'fitness': 0}]
+    [{'genome': 'Ep is greFd', 'fitness': 0}, {'genome': 'Gkeay iJ UI', 'fitness': 0}]
+Got:
+    Delete this and write your code
+    Delete this and write your code
+    Delete this and write your code
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 156, in __main__.mutate_individual
+Failed example:
+    ind = initialize_individual("EC is fun", 10)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 157, in __main__.mutate_individual
+Failed example:
+    for _ in range(4):
+        mutate_individual(ind, 0.3)
+Expected:
+    {'genome': 'Eriis BfG', 'fitness': 0}
+    {'genome': 'EC is auB', 'fitness': 0}
+    {'genome': 'EW gs cun', 'fitness': 0}
+    {'genome': 'EC is fuo', 'fitness': 0}
+Got:
+    Delete this and write your code
+    Delete this and write your code
+    Delete this and write your code
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 285, in __main__.parent_select
+Failed example:
+    i1 = initialize_individual("gene", 5)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 286, in __main__.parent_select
+Failed example:
+    i2 = initialize_individual("meme", 6)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 287, in __main__.parent_select
+Failed example:
+    i3 = initialize_individual("heme", 4)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 289, in __main__.parent_select
+Failed example:
+    for _ in range(4):
+        parent_select(pop, 2)
+Expected:
+    [{'genome': 'meme', 'fitness': 6}, {'genome': 'gene', 'fitness': 5}]
+    [{'genome': 'gene', 'fitness': 5}, {'genome': 'gene', 'fitness': 5}]
+    [{'genome': 'heme', 'fitness': 4}, {'genome': 'meme', 'fitness': 6}]
+    [{'genome': 'heme', 'fitness': 4}, {'genome': 'gene', 'fitness': 5}]
+Got:
+    Delete this and write your code
+    Delete this and write your code
+    Delete this and write your code
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 260, in __main__.rank_group
+Failed example:
+    i1 = initialize_individual("Zhis glass it isabeesting!", 2)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 261, in __main__.rank_group
+Failed example:
+    i2 = initialize_individual("This class is motivating!!", 6)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 264, in __main__.rank_group
+Failed example:
+    rank_group(pop)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 265, in __main__.rank_group
+Failed example:
+    pop
+Expected:
+    [{'genome': 'This class is motivating!!', 'fitness': 6}, {'genome': 'Zhis glass it isabeesting!', 'fitness': 2}]
+Got:
+    [None, None]
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 129, in __main__.recombine_group
+Failed example:
+    i1 = initialize_individual("EC is great", 10)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 130, in __main__.recombine_group
+Failed example:
+    i2 = initialize_individual("Great is EC", 10)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 132, in __main__.recombine_group
+Failed example:
+    for _ in range(4):
+        recombine_group(pop, 0.8)
+Expected:
+    [{'genome': 'Great is EC', 'fitness': 0}, {'genome': 'EC is great', 'fitness': 0}]
+    [{'genome': 'EC at is EC', 'fitness': 0}, {'genome': 'Greis great', 'fitness': 0}]
+    [{'genome': 'Ereat is EC', 'fitness': 0}, {'genome': 'GC is great', 'fitness': 0}]
+    [{'genome': 'EC is gr EC', 'fitness': 0}, {'genome': 'Great iseat', 'fitness': 0}]
+Got:
+    Delete this and write your code
+    Delete this and write your code
+    Delete this and write your code
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 103, in __main__.recombine_pair
+Failed example:
+    i1 = initialize_individual("EC is great", 10)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 104, in __main__.recombine_pair
+Failed example:
+    i2 = initialize_individual("Great is EC", 10)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 105, in __main__.recombine_pair
+Failed example:
+    for _ in range(4):
+        recombine_pair(i1, i2)
+Expected:
+    [{'genome': 'EC is greaC', 'fitness': 0}, {'genome': 'Great is Et', 'fitness': 0}]
+    [{'genome': 'Ereat is EC', 'fitness': 0}, {'genome': 'GC is great', 'fitness': 0}]
+    [{'genome': 'Great is EC', 'fitness': 0}, {'genome': 'EC is great', 'fitness': 0}]
+    [{'genome': 'EC it is EC', 'fitness': 0}, {'genome': 'Greas great', 'fitness': 0}]
+Got:
+    Delete this and write your code
+    Delete this and write your code
+    Delete this and write your code
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 313, in __main__.survivor_select
+Failed example:
+    i1 = initialize_individual("meme", 6)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 314, in __main__.survivor_select
+Failed example:
+    i2 = initialize_individual("gene", 5)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 315, in __main__.survivor_select
+Failed example:
+    i3 = initialize_individual("heme", 4)
+Expected nothing
+Got:
+    Delete this and write your code
+**********************************************************************
+File "/home/elise/Documents/CS5401/2022-FS-101-pa00-weasel-esm9c/weasel.py", line 317, in __main__.survivor_select
+Failed example:
+    for _ in range(4):
+        survivor_select(pop, 2)
+Expected:
+    [{'genome': 'meme', 'fitness': 6}, {'genome': 'gene', 'fitness': 5}]
+    [{'genome': 'meme', 'fitness': 6}, {'genome': 'gene', 'fitness': 5}]
+    [{'genome': 'meme', 'fitness': 6}, {'genome': 'gene', 'fitness': 5}]
+    [{'genome': 'meme', 'fitness': 6}, {'genome': 'gene', 'fitness': 5}]
+Got:
+    Delete this and write your code
+    Delete this and write your code
+    Delete this and write your code
+    Delete this and write your code
+**********************************************************************
+11 items had failures:
+   5 of   9 in __main__.evaluate_group
+   6 of   7 in __main__.evaluate_individual
+   2 of   2 in __main__.initialize_individual
+   1 of   3 in __main__.initialize_pop
+   3 of   6 in __main__.mutate_group
+   2 of   4 in __main__.mutate_individual
+   4 of   7 in __main__.parent_select
+   4 of   8 in __main__.rank_group
+   3 of   6 in __main__.recombine_group
+   3 of   5 in __main__.recombine_pair
+   4 of   7 in __main__.survivor_select
+***Test Failed*** 37 failures.
+What string would you like to evolve?
+How many individuals would you like to evolve?
+Delete this and write your code
+Delete this and write your code
+Delete this and write your code
